@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  box-sizing: border-box;
+}
+
+.contenedorprincipal {
+  display: flex;
+  flex-direction: row;
+}
+.contenedorlateral {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  width: 30%;
+  border: 1px solid gray;
+}
+.Boxpadre {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  border-bottom: 1px solid grey;
+}
+
+.box_uno {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.box_uno h3 {
+  font-size: 24px;
+
+
+}
+
+.box_uno p{
+    color: gray;
+}
+.box_uno img {
+  height: 70px;
+  width: 70px;
+  border-radius: 200px;
+}
+
+.box_dos {
+  display: flex;
+  padding-top: 12px;
+  color: gray;
+  gap: 18px;
+}
+
+.boton {
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+button {
+  width: 230px;
+  height: 60px;
+
+  background-color: #a491d2;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 15px;
+
+  border-bottom: 1px solid grey;
+  padding-left: 17px;
+}
+.user img {
+  height: 80px;
+  width: 80px;
+  border-radius: 200px;
+}
+
+.user .mensajes {
+  padding-top: 12px;
+  text-align: justify;
+}
