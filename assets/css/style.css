@@ -4,12 +4,11 @@
   border: 0;
 }
 body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-
   box-sizing: border-box;
-}
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
 
 .contenedorprincipal {
   display: flex;
@@ -38,12 +37,10 @@ body {
 
 .box_uno h3 {
   font-size: 24px;
-
-
 }
 
-.box_uno p{
-    color: gray;
+.box_uno p {
+  color: gray;
 }
 .box_uno img {
   height: 70px;
@@ -89,7 +86,6 @@ button a {
   align-items: center;
   height: 100px;
   gap: 15px;
-
   border-bottom: 1px solid grey;
   padding-left: 17px;
 }
@@ -102,4 +98,32 @@ button a {
 .user .mensajes {
   padding-top: 12px;
   text-align: justify;
+}
+
+.container {
+  width: 70%;
+  background-color: #e8ebe4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.containter-interior {
+  align-items: center;
+  height: 460px;
+}
+.container img {
+  height: 300px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  padding-bottom: 5px;
+}
+
+.container p {
+  font-size: 18px;
 }
